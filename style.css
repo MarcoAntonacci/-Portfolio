@@ -276,7 +276,7 @@ div.aos-init.aos-animate:hover{
 
 .card-signin .card-img-left {
   width: 45%;
-  background: scroll center url("./img/contact.jpg");
+  background: scroll center url(./img/contact.jpg);
   background-size: cover;
 }
 
