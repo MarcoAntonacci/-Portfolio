@@ -1,0 +1,361 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+:root {
+    --accent-color:#01003a;
+    --second-color:#e8e8e8;
+    --white:#EBEBFF;
+    --black:#000014;
+    }
+
+    body {
+      background-color: #FEFEFE;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+      color: var(--black);
+    }
+    
+.tc-accent{
+    color: var(--accent-color) !important;
+}
+
+.tc-light {
+    color: var(--second-color) !important;
+}
+
+.tc-white{
+    color: var(--white) !important;
+}
+
+.tc-black {
+  color: var(--black);
+}
+
+/* NAVBAR */
+.bg-nav{
+    background-color: #f7f7fc;
+}
+
+
+.navbar-toggler{
+  border-color: transparent !important;
+ 
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+.navbar-light .nav-link {
+    color: var(--accent-color) !important;
+}
+
+
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: var(--black);
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+  }
+
+
+  /* MASTHEAD */
+  .portfolio{
+    padding:6%;
+    text-align:center;
+}
+.heading{
+    background: #fff;
+    padding: 1%;
+    text-align: left;
+    box-shadow: 0px 0px 4px 0px #545b62;
+}
+.heading img{
+    width: 10%;
+}
+.bio-info{
+    padding: 5%;
+    background:#fff;
+    box-shadow: 0px 0px 4px 0px #b0b3b7;
+}
+.name{
+    font-family: 'Charmonman', cursive;
+    font-weight:600;
+}
+.bio-image{
+    text-align:center;
+}
+
+.bio-content{
+    text-align:left;
+}
+.bio-content p{
+    font-weight:600;
+    font-size:30px;
+}
+ 
+  .divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.divider-custom.divider-light .divider-custom-line {
+  background-color: #fff;
+}
+
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color:#000014;
+  border-radius: 1rem;
+  border-color:#000014 !important;
+}
+
+.img-head {
+  padding: 10px !important;
+  background: transparent !important;
+  border-radius: 5px !important;
+  border: 3px solid var(--black);
+}
+
+/* PORTFOLIO SECTION */
+.btn-color {
+  color: var(--white);
+  font-weight: bolder;
+  background-color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+
+.btn-color:hover {
+  color: #FEFEFE;
+  background:#01003be7;
+  transition: ease-in-out 0.4s;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+   outline: 0;                                      /*     per evitare che il bottone rimanga cliccato */
+  box-shadow: none;
+}
+
+.divider-custom-1 {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card{
+  transition: ease-in-out 0.4s;
+}
+#card:hover{
+  
+  transform: scale(1.05);
+}
+
+.divider-custom-1 .divider-custom-line-1 {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color:#000014;
+  border-radius: 1rem;
+  border-color:#000014 !important;
+}
+
+.divider-custom.divider-light .divider-custom-line-1 {
+  background-color:#000014;
+}
+
+/* ABOUT ME SECTION */
+.page-section {
+  padding: 6rem 0;
+}
+
+.bg-accent {
+  background-color: var(--accent-light);
+}
+
+.bg-white {
+  background-color: var(--white);
+
+}
+
+/* CONTACTS SECTION */
+
+@media screen and (max-width: 991px) {
+  #pointer {
+    display: none;
+  }
+}
+
+div.aos-init.aos-animate{
+  transition: ease-in-out 0.4s;
+}
+
+div.aos-init.aos-animate:hover{
+  transform: scale(1.1);
+}
+
+
+/* BUTTON ON TOP */
+
+#myBtn{
+  display: block;
+  background-color: var(--accent-color);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 50%;
+  right: 20px;
+  z-index: 1000;
+  outline:none;
+  border: none;
+  color: var(--white);
+  transition: all 0.5s;
+  opacity: 0.8;
+}
+
+#myBtn:hover {
+  cursor: pointer;
+  background-color: var(--second-color);
+  color: var(--accent-color);
+  transition: all 0.5s;
+  opacity: 1;
+  border: 2px solid var(--black);
+}
+
+
+/* FORM DI CONTATTO */
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin .card-img-left {
+  width: 45%;
+  /* Link to your background image using in the property below! */
+  background: scroll center url('/img/contact.jpg');
+  background-size: cover;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 2rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+}

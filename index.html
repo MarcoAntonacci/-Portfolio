@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Sito Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  </head>
+  <body>
+ 
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-nav sticky-top shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-2 fs-2 fw-bold tc-accent" href="#">Marco Antonacci</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars tc-accent fs-1"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fs-5 hvr-underline-from-left  fw-bold" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 hvr-underline-from-left  fw-bold" href="#form">Form</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 hvr-underline-from-left  fw-bold" href="#contatti">Contatti</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- HEADER -->
+    <div class="container-fluid" style=" background: linear-gradient(90deg, #e8e8e8 50%, #01003a 50%);">
+      <div class="container portfolio ">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="heading">				
+              <img src="https://image.ibb.co/cbCMvA/logo.png" />
+            </div>
+          </div>	
+        </div>
+        <div class="bio-info">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="bio-image">
+                    <img src="/img/marco.png" alt="image"  class="img-fluid img-head shadow" style="height:220px;"/>
+                  </div>			
+                </div>
+              </div>	
+            </div>
+            <div class="col-md-6">
+              <div class="bio-content">
+                <div class="container my-5">
+                  <div class="row tc-accent">
+                    <h1 class="text-center fw-bold fs-1 text-uppercase ">Marco Antonacci</h1>
+                    <p class="fs-5 text-center tc-black ">Jr. Full Stack Developer</p>
+                  </div>
+                </div>
+                  <div class="divider-custom-1 divider-light justify-content-center ">
+                      <div class="divider-custom-line-1"></div>
+                      <div class="divider-custom-icon"><i class="fas fa-laptop-code fs-1 mx-3 tc-black"></i></div>
+                      <div class="divider-custom-line-1"></div>
+                  </div>
+                <h6 class="tc-black">Piacere! Sono Marco e vi do il benvenuto nel mio Sito Portfolio, ho 24 anni e dopo il conseguimento di una Laurea Triennale ed un Master di I livello, ho deciso di entrare nel mondo dello Sviluppo Web in quanto ne sono sempre stato affascinato!</h6>
+                <p class="tc-black">P.S Puoi scoprire qualcosa in più sul mio conto continuando a scorrere!</p>
+              </div>
+            </div>
+          </div>	
+        </div>
+      </div>
+    </div>
+
+    <a href="#"><button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;"><i class="fas fa-chevron-up "></i></button></a>
+
+    <!-- PORTFOLIO SECTION -->
+
+    <section class="" id="portfolio">
+      <div class="mt-5 p-5 text-center">
+        <h2 class="text-uppercase fw-bold fs-1">Portfolio</h2>
+      </div>
+      <div class="container d-flex align-items-center flex-column mb-5"> 
+          <div class="divider-custom-1 divider-light justify-content-center ">
+            <div class="divider-custom-line-1"></div>
+            <div class="divider-custom-icon"><i class="fas fa-laptop-code fs-1 mx-3 tc-black"></i></div>
+            <div class="divider-custom-line-1"></div>
+        </div>
+     </div> 
+      <div class="container">
+        <div class="row justify-content-center" id="wrapper">
+          <!-- <div class="col-12 col-md-6 my-3">
+            <div class="card shadow" style="width: 18rem;">
+                <img src="/img/img-1.png" alt="" class="img-fluid">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Card title</h5>
+                <p class="card-text tc-black p-1 my-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn btn-color " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Visualizza
+                  </button>
+                </div>
+               
+              </div>
+            </div>
+          </div> -->
+      
+        </div>
+      </div>
+    </section>
+
+    
+<!-- FORM -->
+<section class="" id="form">
+  <div class="mt-5 p-5 text-center">
+    <h2 class="text-uppercase fw-bold fs-1">FORM DI CONTATTO</h2>
+  </div>
+  <div class="container d-flex align-items-center flex-column mb-5"> 
+      <div class="divider-custom-1 divider-light justify-content-center ">
+        <div class="divider-custom-line-1"></div>
+        <div class="divider-custom-icon"><i class="fas fa-laptop-code fs-1 mx-3 tc-black"></i></div>
+        <div class="divider-custom-line-1"></div>
+    </div>
+ </div> 
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-lg-10 col-xl-9 mx-auto">
+          <div class="card card-signin flex-row my-5 shadow">
+            <div class="card-img-left d-none d-md-flex">
+               <!-- Background image for card set in CSS! -->
+            </div>
+            <div class="card-body">
+              <h5 class="fw-bold text-center">CONTATTAMI</h5>
+                    <form action="https://formsubmit.co/marco.antonacci96@libero.it" method="POST" class="mt-5">
+                      <div class="mb-3">
+                        <label for="name" class="form-label">Nome</label>
+                        <input type="text" name="name" required class="form-control" id="name" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" name="email" required class="form-control" id="email">
+                      </div>
+                      <div class="mb-3">
+                        <label for="message" class="form-label">Messaggio</label>   
+                      </div>
+                      <textarea name="message" id="message" cols="50" rows="5" required class="form-control"></textarea>
+                      <div class="mb-3">
+                        <button type="submit" class="btn btn-color mt-3">Invia</button>
+                      </div>              
+                    </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+    <!-- Contacts -->
+    <section class="page-section tc-white mb-0 mt-5" id="contatti" style=" background:#01003a;">
+      <div class="container">
+          <!-- About Section Heading-->
+          <h2 class="page-section-heading text-center text-uppercase text-white fs-1 fw-bold">Contatti</h2>
+          <!-- Icon Divider-->
+          <div class="divider-custom divider-light justify-content-center ">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-laptop-code fs-1 mx-3"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+          <!-- About Section Content-->
+          <div class="row">
+            <div class="col-lg-4 mx-auto">
+              <img src="/img/pointer.png" alt="pointer" class="img-fluid" id="pointer"><p class="lead"></p>
+            </div>
+              <div class="col-lg-4 mx-auto mt-5">
+                <p class="lead">
+                <ul>
+                <p><i class="fas fa-map-marked-alt fs-4 me-2"></i> <b> Residenza</b> Bari, Puglia, Italy</p>
+                <p><i class="fas fa-envelope fs-4 me-2"></i> <b> E-mail </b> marco.antonacci96@libero.it</p>
+                <p><i class="fas fa-phone-alt fs-4 me-2"></i> <b> Telefono </b> +39 3407022536</p>
+                </ul>
+              </p>
+            </div>
+          </div>
+
+          <div id="contatti" class="container-fluid bg-white pt-4 shadow mt-5">
+
+            <div class="row text-center text-white p-5">
+                <div class="col-12 col-md-3 mb-3 hover-custom">
+                    <a href="https://www.linkedin.com/in/marco-antonacci-904890118/" target="_blank">
+                      <div data-aos="flip-right" data-aos-once="true" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-offset="200" data-aos-delay="50" class="aos-init aos-animate">
+                        <i class="fab fa-linkedin tc-black fs-1 mb-2"></i>
+                        <h5 class="tc-black">Linkedin</h5>
+                      </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 mb-3 hover-custom">
+                    <a href="https://github.com/MarcoAntonacci" target="_blank">
+                      <div data-aos="flip-left" data-aos-once="true" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-offset="200" data-aos-delay="200" class="aos-init aos-animate">
+                        <i class="fab fa-github tc-black fs-1 mb-2"></i>
+                        <h5 class="tc-black" >GitHub</h5>
+                      </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 mb-3 hover-custom">
+                    <a href="mailto: marco.antonacci96@libero.it">
+                      <div data-aos="flip-right" data-aos-once="true" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-offset="200" data-aos-delay="100" class="aos-init aos-animate">
+                        <i class="far fa-envelope tc-black fs-1 mb-2"></i>
+                        <h5 class="tc-black">E-mail</h5>
+                      </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 mb-3 hover-custom">
+                  <a href="tel:3407022536">
+                    <div data-aos="flip-right" data-aos-once="true" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-offset="200" data-aos-delay="100" class="aos-init aos-animate">
+                      <i class="fas fa-phone tc-black fs-1 mb-2"></i>
+                      <h5 class="tc-black">Phone</h5>
+                    </div>
+                  </a>
+              </div>
+            </div>
+        </div>
+
+          <!-- About Section Button-->
+
+      </div>
+  </section>
+
+ 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" >
+     <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title fw-bold" id="ModalName"></h5> 
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="ModalImg" class="d-flex justify-content-center">
+
+        </div>
+      </div>
+
+      <!-- chiusura modale -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <a href="https://github.com/MarcoAntonacci" class="btn btn-success">Vai a GitHub</a>
+      </div>
+    </div> 
+  </div>
+</div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!-- JAVASCRIPT -->
+    <script src="./script.js"></script>
+   
+
+
+  </body>
+</html>
